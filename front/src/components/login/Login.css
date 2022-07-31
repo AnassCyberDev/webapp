@@ -1,0 +1,52 @@
+.formLogin {
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    margin:auto;
+    border-radius: 15px;
+    background: #fff;
+    width: 80%;
+    /* margin: -140px 0 0 -182px; */
+    padding: 40px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);}
+
+    #login-email,#login-password, #login-fname,#login-lname,#login-phone{
+      outline: none;
+      display: block;
+      width: 100%;
+      margin: 0 0 20px;
+      padding: 10px 15px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      color: #ccc;
+      font-family: "Roboto";
+      box-sizing: border-box;
+      font-size: 14px;
+      font-weight: 400;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      transition: 0.2s linear;
+
+    }
+    #login-button {
+      cursor: pointer;
+      background: #64ddbb;
+      width: 100%;
+      padding: 10px 15px;
+      border: 0;
+      color: #fff;
+      font-family: "Roboto";
+      font-size: 14px;
+      font-weight: 400;
+      border-radius: 10px;
+
+    }
+    #login-text {
+      text-align: center;
+        margin: 0 0 20px;
+        line-height: 1;
+        color: #64ddbb;
+        font-size: 18px;
+        font-weight: 400;
+      }
+  

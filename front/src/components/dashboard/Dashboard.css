@@ -1,0 +1,148 @@
+/* sidebar1 */
+#dashboard {
+    padding-bottom:0 ;
+    min-height: 600px;
+}
+
+.sidebar1{
+    /* position: fixed; */
+    /* margin-top: 100px; */
+    width: 260px;
+    height: 100rem;
+    background: #34495e;
+    overflow-x: hidden;
+
+}
+
+.sidebar1 ul{
+    margin-top: 30px;
+}
+
+.sidebar1 ul li {
+    width: 100%;
+    list-style: none;
+}
+
+.sidebar1 ul li a{
+    width: 100%;
+    text-decoration: none;
+    color: antiquewhite;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar1 ul li a i{
+    min-width: 60px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.main {
+    position: absolute;
+    top:100px;
+    /* width: calc(100%-260px); */
+    left: 260px;
+
+}
+
+.dash-cards{
+    width: 100%;
+    padding: 35px 20px;
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr); */
+    /* grid-gap:50px; */
+}
+
+.dash-cards .dash-card{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 7px 25px 0 rgba(0,0,0,0.08);
+    margin: 10px;
+}
+
+.number {
+    font-size: 35px;
+    font-weight: 500;
+    color: #6df2cc;
+}
+
+.card-name {
+    color: #888;
+    font-weight: 600;
+
+}
+
+.dash-card-icon {
+    font-size: 45px;
+    color: #34495e;
+}
+.charts {
+    display: grid;
+    /* grid-template-columns: 2fr 1fr;
+    grid-gap:30px; */
+    width: 100%;
+    padding: 30px;
+    padding-top: 0;
+}
+
+.chart{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 7px 25px 0 rgba(0,0,0,0.08);
+    /* width: 300px; */
+    /* height:300px; */
+
+}
+
+.chart h5 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #45494d;
+    text-align: center;
+}
+
+/* espacement */
+
+.hoodash:hover {
+    background: #223f5c;
+    font-size: large;
+  }
+a>i:hover {
+    font-size: 45px;
+}
+  
+
+/* responsive */
+
+@media (max-width:1115px){
+    .sidebar1 {
+        width: 60px;
+    }
+    .main {
+        left: 60px;
+   
+    }
+    .sidebar1 ul{
+        padding-left: 0!important;
+    }
+
+}
+
+@media (max-width:880px) {
+    .sidebar1 ul{
+        padding-left: 0!important;
+    }
+    /* .dash-cards{
+        /* grid-template-columns: repeat(2,1fr); */
+    /* }
+    .charts{
+        grid-template-columns:1fr ;
+
+    } */ 
+}

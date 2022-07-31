@@ -1,0 +1,8 @@
+.villes {
+    width: 100% !important;
+    appearance: none;
+    color: #aaaaaa;
+    background-color: #f8f8f8;
+    height: 42px !important;
+    border: 1px solid #eeeeee;
+}

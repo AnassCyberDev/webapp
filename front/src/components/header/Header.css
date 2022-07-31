@@ -1,0 +1,38 @@
+.navbar.active {
+    background-color: white;
+    height: 90;
+}
+
+.nav-link.active {
+    color: #34495e!important;
+}
+
+.btn-popup.active {
+    color: #34495e;
+}
+
+.menu-item.active {
+    color: #34495e;
+}
+.navbar-toggle {
+    border-color:  #64ddbb !important; ;
+}
+
+@media (max-width: 1000px){
+ 
+    
+    .nav-link.active {
+        color: white!important;
+    }
+    
+    .btn-popup.active {
+        color: white;
+    }
+    
+    .menu-item.active {
+        color: white;
+    }
+    navbar-toggle.active {
+        color:white ;
+    }
+      }
